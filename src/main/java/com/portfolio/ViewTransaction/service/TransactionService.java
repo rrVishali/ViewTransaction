@@ -8,4 +8,5 @@ public interface TransactionService {
     List<Transaction> getAllTransactions();
 
     Transaction saveTransaction(Transaction transaction);
+
 }

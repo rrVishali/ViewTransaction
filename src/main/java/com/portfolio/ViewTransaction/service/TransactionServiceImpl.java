@@ -17,6 +17,7 @@ public class TransactionServiceImpl implements TransactionService {
     @Override
     public List<Transaction> getAllTransactions() {
         return transactionRepository.findAll();
+        
     }
 
     public Transaction saveTransaction(Transaction transaction) {
@@ -29,4 +30,5 @@ public class TransactionServiceImpl implements TransactionService {
         // Save transaction
         return transactionRepository.save(transaction);
     }
+    
 }
