@@ -69,16 +69,16 @@ public class Transaction {
         return amount_paid;
     }
 
-    public void setAmountPaid(String amountPaid) {
-        this.amount_paid = amountPaid;
+    public void setAmountPaid(String amount_paid) {
+        this.amount_paid = amount_paid;
     }
 
     public String getAmountReceived() {
-        return amount_paid;
+        return amount_received;
     }
 
-    public void setAmountReceived(String amountReceived) {
-        this.amount_paid = amountReceived;
+    public void setAmountReceived(String amount_received) {
+        this.amount_received = amount_received;
     }
 
     public String getTransactionType() {
