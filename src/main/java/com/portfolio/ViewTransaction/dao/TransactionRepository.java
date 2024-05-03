@@ -1,6 +1,6 @@
 package com.portfolio.ViewTransaction.dao;
 
-
+#Repository 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.portfolio.ViewTransaction.entity.Transaction;
